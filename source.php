@@ -11,11 +11,11 @@ $sourceXml = <<<XML
 <p class="col-12 text-center">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2 class="col-12 text-center mt-4 mb-5">Nos dernières réalisations à Nantes</h2>
 <div class="gallery_box_single col-12 row">
-    <div class="img float-left text-center"><img class="img-thumbnail" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
-    <div class="img float-right text-center"><img class="img-thumbnail" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
-    <div class="img float-left text-center"><img class="img-thumbnail" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
-    <div class="img float-right text-center"><img class="img-thumbnail" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
-    <div class="img float-left mx-auto text-center"><img class="img-thumbnail" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
+    <div class="img-responsive float-left text-center"><img class="img-thumbnail" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
+    <div class="img-responsive float-right text-center"><img class="img-thumbnail" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
+    <div class="img-responsive  float-left text-center"><img class="img-thumbnail" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
+    <div class="img-responsive  float-right text-center"><img class="img-thumbnail" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
+    <div class="img-responsive  float-left mx-auto text-center"><img class="img-thumbnail" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
 </div>
 
 
@@ -25,12 +25,14 @@ $sourceXml = <<<XML
     <page id="2">
         <menu>Qui sommes nous?</menu>
         <title>En apprendre plus sur nous - Maçonnerie Ocordo</title>
-        <content class="col-12"><![CDATA[<h1>Qui sommes-nous?</h1>
-<h2>L’AGENCE DE TRAVAUX OCORDO</h2>
-<h3>Présentation de notre entreprise</h3>
+        <div></div>
+        <content class="col-12 d-flex justify-content-center"><![CDATA[<h1 class="text-center col-12" >Qui sommes-nous?</h1>
+<h2 class= "move2">L’AGENCE DE TRAVAUX OCORDO</h2>
+<h3 class="mt-5">Présentation de notre entreprise</h3>
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p>
     Nous travaillons exclusivement pour les particuliers.</p>
-<p><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
+<div class="media">
+<p><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p></div>
 <p>Notre groupement est en mesure de vous proposer les compétences métier dans le gros oeuvre et le second oeuvre :</p><p>
 <ul>
     <li>Maçonnerie générale</li><li>
@@ -67,7 +69,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
     <page id="3">
         <menu>Nos clients témoignent</menu>
         <title>Avis clients - Maçonnerie Ocordo</title>
-        <content class="col-12"><![CDATA[<h1>Nos clients témoignent</h1>
+        <content class="col-12"><![CDATA[<h1 class="mx-auto">Nos clients témoignent</h1>
 <div class="testimonials-list">
     <div class="quote">
         <h2>Rénovation transformation</h2>
