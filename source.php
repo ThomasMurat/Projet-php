@@ -10,7 +10,7 @@ $sourceXml = <<<XML
 <p class="col-12 text-center">Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p class="col-12 text-center">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2 class="col-12 text-center mt-4 mb-5">Nos dernières réalisations à Nantes</h2>
-<div class="gallery_box_single row">
+<div class="gallery_box_single col-12 row">
     <div class="img col-4 text-center mb-4"><img src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
     <div class="img col-4 text-center"><img src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
     <div class="img col-4 text-center"><img src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
