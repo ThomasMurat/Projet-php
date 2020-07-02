@@ -2,10 +2,6 @@
 $source = new SimpleXMLElement($sourceXml);
 if(isset($_GET['pageId'])) {
     switch($_GET['pageId']) {
-        case 1:
-            $selectedPage = 0;
-            $title = $source->page[0]->title;
-        break;
         case 2:
             $selectedPage = 1;
             $title = $source->page[1]->title;

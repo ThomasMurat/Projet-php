@@ -25,7 +25,7 @@ $sourceXml = <<<XML
     <page id="2">
         <menu>Qui sommes nous?</menu>
         <title>En apprendre plus sur nous - Maçonnerie Ocordo</title>
-        <content class="col-12"><![CDATA[<h1>Qui sommes-nous?</h1>
+        <content class="col-12"><![CDATA[<h1 class="col-12 text-center">Qui sommes-nous?</h1>
 <h2>L’AGENCE DE TRAVAUX OCORDO</h2>
 <h3>Présentation de notre entreprise</h3>
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p>
