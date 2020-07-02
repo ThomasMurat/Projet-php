@@ -10,12 +10,12 @@ $sourceXml = <<<XML
 <p class="col-12 text-center">Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p class="col-12 text-center">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2 class="col-12 text-center mt-4 mb-5">Nos dernières réalisations à Nantes</h2>
-<div class="gallery_box_single col-12 row">
-    <div class="img float-left text-center"><img class="img-thumbnail" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
-    <div class="img float-right text-center"><img class="img-thumbnail" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
-    <div class="img float-left text-center"><img class="img-thumbnail" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
-    <div class="img float-right text-center"><img class="img-thumbnail" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
-    <div class="img float-left mx-auto text-center"><img class="img-thumbnail" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
+<div class="gallery_box_single col-12">
+    <div class="img-responsive float-left text-center"><img class="img-thumbnail" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
+    <div class="img-responsive float-right text-center"><img class="img-thumbnail" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
+    <div class="img-responsive  float-left text-center"><img class="img-thumbnail" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
+    <div class="img-responsive  float-right text-center"><img class="img-thumbnail" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
+    <div class="img-responsive  float-left mx-auto text-center"><img class="img-thumbnail" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
 </div>
 
 
@@ -25,14 +25,15 @@ $sourceXml = <<<XML
     <page id="2">
         <menu>Qui sommes nous?</menu>
         <title>En apprendre plus sur nous - Maçonnerie Ocordo</title>
-        <content class="col-12"><![CDATA[<h1 class="col-12 text-center">Qui sommes-nous?</h1>
-<h2>L’AGENCE DE TRAVAUX OCORDO</h2>
-<h3>Présentation de notre entreprise</h3>
-<p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p>
+        <div></div>
+        <content class="col-12 d-flex justify-content-center"><![CDATA[<h1 class="text-center col-12 mt-3" >Qui sommes-nous?</h1>
+<h2 class="col-12 mt-3 mb-5 text-center">L’AGENCE DE TRAVAUX OCORDO</h2>
+<h3 class=" mt-3">Présentation de notre entreprise</h3>
+<p class="col-12 mt-2 ">Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p class="col-12">
     Nous travaillons exclusivement pour les particuliers.</p>
-<p><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
-<p>Notre groupement est en mesure de vous proposer les compétences métier dans le gros oeuvre et le second oeuvre :</p><p>
-<ul>
+<p class="w-100 text-center"><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="800" height="420" frameborder="0"></iframe></p>
+<p class="col-12">Notre groupement est en mesure de vous proposer les compétences métier dans le gros oeuvre et le second oeuvre :</p><p>
+<ul class="col-12">
     <li>Maçonnerie générale</li><li>
         Travaux de toiture</li><li>
         Isolation thermique et phonique</li><li>
@@ -45,29 +46,29 @@ $sourceXml = <<<XML
         Menuiserie</li>
 </ul>
 
-<p>Nous sommes aujourd’hui 7 groupements implantés à Lille, Reims, Amiens, Arras, Strasbourg, Nantes et Bordeaux.</p><p>
+<p class="col-12">Nous sommes aujourd’hui 7 groupements implantés à Lille, Reims, Amiens, Arras, Strasbourg, Nantes et Bordeaux.</p><p class="col-12">
 
-Quels sont les avantages en travaillant avec notre groupement ? Simplicité, Sécurité et Prix</p><p>
-Pourquoi la Simplicité ? Parce que vous avez un seul interlocuteur qui est disponible de la préparation au chiffrage de l’ensemble de vos travaux.</p><p>
+Quels sont les avantages en travaillant avec notre groupement ? Simplicité, Sécurité et Prix</p><p class="col-12">
+Pourquoi la Simplicité ? Parce que vous avez un seul interlocuteur qui est disponible de la préparation au chiffrage de l’ensemble de vos travaux.</p><p class="col-12">
 
     Pourquoi la Sécurité ? Par ce que pour élaborer votre projet de travaux de rénovation ou de construction d’extension nous :</p><p>
-<ul>   
+<ul class="col-12">   
     <li>fixons un premier rendez-vous au cours duquel nous vous écoutons nous parlez de votre projet de travaux. À ce stade nous pouvons déjà vous conseiller.</li>
 <li>établissons un chiffrage détaillé lot par lot.</li>
 <li>vous remettons un dossier-devis comprenant les devis détaillés avec les dates prévisionnelles de début et de fin d’intervention,les assurances décennales et la RC professionnelle,</li>
 <li>vous remettons un résumé pratique vous expliquant l’exécution de vos travaux.</li>
 </ul>
-<p>Toutes les entreprises du bâtiment de notre groupement travaillent en direct sans aucune sous traitance.</p>
+<p class="col-12">Toutes les entreprises du bâtiment de notre groupement travaillent en direct sans aucune sous traitance.</p>
 
-<p>Tous les travaux sont couverts par la garantie de parfait achèvement conformément aux règles en vigueur .</p>
+<p class="col-12">Tous les travaux sont couverts par la garantie de parfait achèvement conformément aux règles en vigueur .</p>
 
-<p>Pourquoi le Prix ? Nous avons professionnalisé notre organisation et mis en place des outils de gestion et d’organisation exclusifs. C’est pourquoi nous sommes en mesure de vous faire bénéficier de prix très compétitifs et d’un excellent rapport qualité/prix.<p>
+<p class="col-12">Pourquoi le Prix ? Nous avons professionnalisé notre organisation et mis en place des outils de gestion et d’organisation exclusifs. C’est pourquoi nous sommes en mesure de vous faire bénéficier de prix très compétitifs et d’un excellent rapport qualité/prix.<p class="col-12">
 bénéficier de prix très compétitifs et d’un excellent rapport qualité/prix pour vos travaux de rénovation.]]></content>
     </page>
     <page id="3">
         <menu>Nos clients témoignent</menu>
         <title>Avis clients - Maçonnerie Ocordo</title>
-        <content class="col-12"><![CDATA[<h1>Nos clients témoignent</h1>
+        <content class="col-12"><![CDATA[<h1 class="mx-auto">Nos clients témoignent</h1>
 <div class="testimonials-list">
     <div class="quote">
         <h2>Rénovation transformation</h2>
@@ -85,9 +86,9 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <menu>Contact</menu>
         <title>Contactez nous - Maçonnerie Ocordo</title>
         <content class="col-12"><![CDATA[<h1 class="col-12">Contact et Devis</h1>    
-<p class="col-12"><iframe style="border: 0; float: right;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
+<p class="float-left"><iframe style="border: 0; float: right;" class="" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
 <p class="col-12">POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
-<ul class="col-12">
+<ul class="class="col-12"">
     <li>Téléphonez-nous au 02.51.84.18.24</li>
     <li>Ou écrivez-nous à cette adresse email : contact@ocordo-travaux.fr</li>
     <li>Ou compétez le formulaire ci-dessous :</li>
