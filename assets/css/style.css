@@ -11,3 +11,12 @@ body {
   background-color: aliceblue; 
   height: 10px;  
 }
+.img {
+    margin: 1%;
+}
+h1 {
+    font-size: 65px;
+}
+p {
+    font-size: 18px;
+}
